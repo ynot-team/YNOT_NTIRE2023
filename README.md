@@ -7,3 +7,7 @@ YNOT
 
 ### > Team Members
 Youngsun Cho, Nakyung Lee
+
+### ** caution **
+To Challenge Organizers,
+The output results(1.2GB) are in the Google Drive link that we sent by email.
