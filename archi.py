@@ -166,7 +166,7 @@ class FFC14_ST_all_wavelet_front_module4(nn.Module):
 
         return out
 
-def ffc14_st_all_wavelet_front_module4(scale):
+def srmodel(scale):
     model = FFC14_ST_all_wavelet_front_module4(upscale_factor=scale, in_channels=3, num_fea=64, out_channels=3, imdn_blocks=4)
     
     return model
