@@ -1,0 +1,99 @@
+aiohttp==3.8.4
+aiosignal==1.3.1
+async-timeout==4.0.2
+attrs==22.2.0
+brotlipy @ file:///home/conda/feedstock_root/build_artifacts/brotlipy_1666764652625/work
+certifi==2022.12.7
+cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1671179356964/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1661170624537/work
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1666798198223/work
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1674202310934/work
+cmake==3.26.0
+contourpy==1.0.7
+cryptography @ file:///home/conda/feedstock_root/build_artifacts/cryptography-split_1677821248474/work
+cycler==0.11.0
+cytoolz @ file:///home/conda/feedstock_root/build_artifacts/cytoolz_1666829687316/work
+d2go @ file:///workdir/rtsr_ynot/d2go
+dask @ file:///home/conda/feedstock_root/build_artifacts/dask-core_1678484078913/work
+filelock==3.10.0
+fonttools==4.39.2
+frozenlist==1.3.3
+fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1678112553830/work
+huggingface-hub==0.13.2
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
+imagecodecs-lite @ file:///home/conda/feedstock_root/build_artifacts/imagecodecs-lite_1667050036243/work
+imageio==2.26.0
+importlib==1.0.4
+importlib-resources==5.12.0
+Jinja2==3.1.2
+kiwisolver==1.4.4
+lazy_loader==0.1
+lightning-utilities==0.8.0
+lit==16.0.0
+locket @ file:///home/conda/feedstock_root/build_artifacts/locket_1650660393415/work
+MarkupSafe==2.1.2
+matplotlib==3.7.1
+mkl-fft==1.3.1
+mkl-random==1.2.2
+mkl-service==2.4.0
+mock==5.0.1
+mpmath==1.3.0
+multidict==6.0.4
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1673151334029/work
+numpy @ file:///croot/numpy_and_numpy_base_1672336185480/work
+nvidia-cublas-cu11==11.10.3.66
+nvidia-cublas-cu12==12.1.0.26
+nvidia-cuda-cupti-cu11==11.7.101
+nvidia-cuda-nvrtc-cu11==11.7.99
+nvidia-cuda-runtime-cu11==11.7.99
+nvidia-cuda-runtime-cu12==12.1.55
+nvidia-cudnn-cu11==8.5.0.96
+nvidia-cudnn-cu12==8.8.1.3
+nvidia-cufft-cu11==10.9.0.58
+nvidia-curand-cu11==10.2.10.91
+nvidia-cusolver-cu11==11.4.0.1
+nvidia-cusparse-cu11==11.7.4.91
+nvidia-nccl-cu11==2.14.3
+nvidia-nvtx-cu11==11.7.91
+nvidia-tensorrt==99.0.0
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+opencv-python==4.7.0.72
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1673482170163/work
+pandas==1.5.3
+parameterized==0.8.1
+partd @ file:///home/conda/feedstock_root/build_artifacts/partd_1660316728562/work
+Pillow==9.4.0
+platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1678652433955/work
+pooch @ file:///home/conda/feedstock_root/build_artifacts/pooch_1677600624926/work
+protobuf==3.20.2
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1672659226110/work
+pyparsing==3.0.9
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
+python-dateutil==2.8.2
+pytorch-lightning==1.8.6
+pytz==2022.7.1
+PyWavelets @ file:///home/conda/feedstock_root/build_artifacts/pywavelets_1673082342303/work
+PyYAML @ file:///home/conda/feedstock_root/build_artifacts/pyyaml_1666772387080/work
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1673863902341/work
+scikit-image==0.20.0
+scipy==1.10.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+sympy==1.11.1
+tensorboardX==2.6
+tensorrt==8.6.0
+tifffile==2023.3.15
+timm==0.6.12
+toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1657485559105/work
+torch==1.7.1+cu110
+torch-tensorrt==0.0.0
+torchaudio==0.7.0a0+a853dff
+torchmetrics==0.11.4
+torchsummaryX==1.3.0
+torchvision==0.8.2+cu110
+tqdm==4.65.0
+triton==2.0.0
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1678559861143/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1678635778344/work
+yarl==1.8.2
+zipp==3.15.0
