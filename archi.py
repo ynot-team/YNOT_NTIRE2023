@@ -168,5 +168,8 @@ class FFC14_ST_all_wavelet_front_module4(nn.Module):
 
 def srmodel(scale):
     model = FFC14_ST_all_wavelet_front_module4(upscale_factor=scale, in_channels=3, num_fea=64, out_channels=3, imdn_blocks=4)
-    
+
+    model_path = 'checkpoints.pth'
+    model.load_state_dict(torch.load(model_path), strict=True)
+
     return model
