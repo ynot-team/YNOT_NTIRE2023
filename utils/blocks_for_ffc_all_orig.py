@@ -164,7 +164,11 @@ class FourierUnit(nn.Module):
         try:
             ffted = torch.rfft(x, signal_ndim=2, normalized=True)
         except:
-            ffted = torch.fft.rfft(x, signal_ndim=2, normalized=True)
+            try:
+                ffted = torch.rfft(x.float(), signal_ndim=2, normalized=True).type(x.type())
+                # target = torch.ifft(source.float(), 2).type(source.type()) 
+            except:
+                ffted = torch.fft.rfft(x, signal_ndim=2, normalized=True)
         # (batch, c, 2, h, w/2+1)
         ffted = ffted.permute(0, 1, 4, 2, 3).contiguous()
         ffted = ffted.view((batch, -1,) + ffted.size()[3:])
@@ -179,7 +183,11 @@ class FourierUnit(nn.Module):
             output = torch.irfft(ffted, signal_ndim=2,
                                 signal_sizes=r_size[2:], normalized=True)
         except:
-            output = torch.fft.irfft(ffted, signal_ndim=2,
+            try:
+                output = torch.irfft(ffted.float(), signal_ndim=2,
+                                signal_sizes=r_size[2:], normalized=True).type(ffted.type())
+            except:
+                output = torch.fft.irfft(ffted, signal_ndim=2,
                                 signal_sizes=r_size[2:], normalized=True)
 
         return output
